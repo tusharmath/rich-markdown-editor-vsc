@@ -90,7 +90,7 @@ export class RichMarkdownEditor implements vscode.CustomTextEditorProvider {
 
     const fontFamily = vscode.workspace
       .getConfiguration("rich-markdown-editor")
-      .get("fontSize", DEFAULT_FONT_FAMILY)
+      .get("fontFamily", DEFAULT_FONT_FAMILY)
 
     // Local path to script and css for the webview
     const scriptUri = webview.asWebviewUri(
