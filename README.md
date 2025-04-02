@@ -15,4 +15,22 @@ Perfect for writing docs, authoring blog posts, and editing markdown website con
 
 This extension replaces the default code editor for markdown files with a rich version, allowing you to "edit" in preview mode.
 
-It uses the [rich-markdown-editor](https://github.com/outline/rich-markdown-editor) project generously open sourced by [Outline](https://www.getoutline.com/)
+## Customization
+
+You can customize the editor's appearance through VS Code settings:
+
+| Setting | Description | Default |
+| --- | --- | --- |
+| `rich-markdown-editor.fontSize` | Font size for the editor | `16px` |
+| `rich-markdown-editor.fontFamily` | Font family for rendering markdown | System default font stack |
+
+Example settings in `settings.json`:
+
+```json
+"rich-markdown-editor.fontSize": "18px",
+"rich-markdown-editor.fontFamily": "Dank Mono, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+```
+
+## Credits
+
+This extension uses the [rich-markdown-editor](https://github.com/outline/rich-markdown-editor) project generously open sourced by [Outline](https://www.getoutline.com/)
